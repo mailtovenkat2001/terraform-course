@@ -1,1 +1,1 @@
-"successfully complete"
+print("successfully complete")
