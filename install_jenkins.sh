@@ -6,5 +6,5 @@ wget https://releases.hashicorp.com/terraform/0.8.5/terraform_0.8.5_linux_386.zi
 
 unzip terraform_0.8.5_linux_386.zip
 
-mv terraform /usr/local/bin/
+sudo mv terraform /usr/local/bin/
 
