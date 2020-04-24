@@ -1,3 +1,1 @@
-curl -O https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
-unzip terraform_0.11.1_linux_amd64.zip
-terraform -v
+aws s3api create-bucket --bucket my-bucket --region us-east-1
