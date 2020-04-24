@@ -8,3 +8,4 @@ unzip terraform_0.8.5_linux_386.zip
 
 sudo mv terraform /usr/local/bin/
 
+terraform init
