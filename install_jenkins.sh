@@ -1,4 +1,6 @@
 
+terraform init
+terraform apply
 
 #!/bin/bash
 sudo yum -y update
