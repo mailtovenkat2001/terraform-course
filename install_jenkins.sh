@@ -1,13 +1,8 @@
-echo "Successfully deployed"
+############################
+## Terraform installation ##
+############################
+## Get terraform package
+wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
 
-sudo cd /usr/local/src
-
-wget https://releases.hashicorp.com/terraform/0.8.5/terraform_0.8.5_linux_386.zip
-
-unzip terraform_0.8.5_linux_386.zip
-
-yes
-
-sudo mv terraform /usr/local/bin/
-
-terraform init
+## Unzip the package
+unzip terraform_0.11.13_linux_amd64.zip
