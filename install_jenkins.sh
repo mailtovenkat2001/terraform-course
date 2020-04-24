@@ -1,1 +1,8 @@
-aws s3api create-bucket --bucket my-bucket --region us-east-1
+#!/bin/bash
+sudo yum -y update
+
+echo "Install Java JDK 8"
+yum remove -y java
+yum install -y java-1.8.0-openjdk
+
+echo "successfully completed jenkins job sample "
