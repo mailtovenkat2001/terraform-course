@@ -1,1 +1,1 @@
-echo "prayag works on JVM"
+echo "Successfully deployed"
