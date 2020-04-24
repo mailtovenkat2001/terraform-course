@@ -1,1 +1,1 @@
-print("successfully complete")
+echo "prayag works on JVM"
